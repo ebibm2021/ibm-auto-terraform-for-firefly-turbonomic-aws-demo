@@ -1,0 +1,5 @@
+aws_access_key = "AKIAQGINVU4TEF26MNWN"
+aws_secret_key = "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"
+firefly_access_key = "INFLVCFFDBEXAVJWILEI"
+firefly_secret_key = "YtZist3mmWWkCmfK3uojRif0ikBD2CZGTnlLOTTn5e23lhVlgXpfgIbnq0Q5k3dL"
+region = "ap-south-1"
