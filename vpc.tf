@@ -2,7 +2,7 @@
 data "aws_availability_zones" "available" {}
 
 locals {
-  cluster_name = "firefly-eks-for-turbo-experiment-10-march"
+  cluster_name = "firefly-eks-for-turbo-14-mar"
 }
 
 module "vpc" {
