@@ -2,14 +2,14 @@
 data "aws_availability_zones" "available" {}
 
 locals {
-  cluster_name = "firefly-eks-for-turbo-14-mar"
+  cluster_name = "eks-for-firefly-turbo-14-mar"
 }
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.2.0"
 
-  name                 = "firefly-vpc-for-turbo-experiment-10-march"
+  name                 = "vpc-for-firefly-turbo-14-mar"
   cidr                 = "10.0.0.0/16"
   azs                  = data.aws_availability_zones.available.names
   private_subnets      = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
